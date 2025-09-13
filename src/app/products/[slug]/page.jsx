@@ -97,7 +97,7 @@ export default async function ProductPage({ params }) {
           ) : null}
 
           <div className="d-flex gap-2">
-            <button className="btn btn-primary">สั่งซื้อสินค้า</button>
+          <a href={baseURL} className="btn btn-primary" target="_blank" rel="noopener noreferrer">สั่งซื้อสินค้า</a>
             <a href="/#products" className="btn btn-outline-secondary">
               กลับไปดูสินค้าทั้งหมด
             </a>
