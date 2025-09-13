@@ -15,7 +15,7 @@ export default function Main() {
         const file = typeof img === "string" ? img : "";
         const altText = file.endsWith(".png") ? file.slice(0, -4) : (file || "image");
         return (
-          <a key={file || i} href={baseURL} className="image-wrapper" target="_blank" rel="noopener">
+          <a key={file || i} href={baseURL} className="image-wrapper" rel="noopener">
             <Image
               src={`${baseURL}/img/phone/${file}`}
               alt={altText}
